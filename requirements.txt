@@ -19,6 +19,8 @@ chardet==4.0.0
 click==7.1.2
 cloudpickle==1.6.0
 colorama==0.4.4
+cpuid==0.0.9
+cpuid-native==0.0.6
 cryptography==3.3.1
 decorator==4.4.2
 defusedxml==0.6.0
@@ -122,8 +124,8 @@ spyder==4.2.1
 spyder-kernels==1.10.1
 tensorboard==2.4.0
 tensorboard-plugin-wit==1.7.0
+tensorflow==2.4.0
 tensorflow-estimator==2.4.0
-tensorflow-gpu==2.4.0
 termcolor==1.1.0
 testpath==0.4.4
 textdistance==4.2.0
