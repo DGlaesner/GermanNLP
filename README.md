@@ -16,12 +16,17 @@ pip install -r requirements.txt
 For using Tensorflow 2.4.0 CUDA 11.0 is required, which can be found here:
 <https://developer.nvidia.com/cuda-toolkit-archive>
 
-The cuDNN 8.0.5 Installation Guide be found here:
+The cuDNN 8.0.5 Installation Guide can be found here:
 <https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html>
 
-Note:
+---
 
-* The Installation of multiple CUDA-Versions can cause the error "ImportError: DLL load failed" while importing tensorflow.
+### NOTE
+
+* After installing everything you can check your Setup by executing "tests/test_tensorflow.py"
+* Multiple Installations of different CUDA-Versions can cause the error "ImportError: DLL load failed" while importing tensorflow.
+
+---
 
 ## Dataset
 
